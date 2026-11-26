@@ -1,0 +1,7 @@
+# Dependencies for the robot-control PC (collection + live dual cameras + raw recording)
+# Recommended Python version: 3.10 or 3.11 (for prebuilt ur-rtde & pyrealsense2 wheels on Windows)
+numpy>=1.24,<2.3
+opencv-python>=4.8
+pillow>=10.0
+pyrealsense2>=2.54
+ur-rtde>=1.5.5

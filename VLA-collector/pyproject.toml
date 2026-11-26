@@ -1,0 +1,25 @@
+[project]
+name = "ur5e-vla-collector"
+version = "0.1.0"
+description = "UR5e + Robotiq + Dual-Camera (Webcam & RealSense D405) VLA data collection GUI and LeRobot converter"
+readme = "VLA_DATA_COLLECTION_GUIDE.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "numpy>=1.24,<2.3",
+    "opencv-python>=4.8",
+    "pillow>=10.0",
+    "pyrealsense2>=2.54",
+    "ur-rtde>=1.5.5",
+]
+
+[project.optional-dependencies]
+convert = [
+    "lerobot>=0.4.0",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+vla-collector = "vla_collector.gui:main"
+vla-convert = "convert_raw_to_lerobot:main"

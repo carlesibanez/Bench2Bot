@@ -1,0 +1,52 @@
+# Project data & recorded outputs
+vla_data/
+runs/
+snapshots/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python bytecode, caches & packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor backups, logs, temporary & OS files
+*.save
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local secrets / env
+.env
+.env.*
+!.env.example
