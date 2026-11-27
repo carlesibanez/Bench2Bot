@@ -11,7 +11,7 @@ Project 4 of the **AIchemy Winter School 2026: Robotics and AI for Chemistry**.
 
 ## Goal
 
-We provide a **proof of concept** for teaching a robot arm a liquid transfer from demonstration: we record demonstrations on a UR5e and use them to fine-tune a state-of-the-art Vision-Language-Action (VLA) model. The task is to pick up a pipette, aspirate from a source vial and dispense into a target vial on a stirring hot plate. The trained policy should still work when the pipette holder and vials are moved to new positions.
+We provide a **proof of concept** for teaching a robot arm a liquid transfer from demonstration: we record demonstrations on a UR5e and use them to fine-tune [π0](https://arxiv.org/abs/2410.24164) (pi-zero), a state-of-the-art Vision-Language-Action (VLA) model. The task is to pick up a pipette, aspirate from a source vial and dispense into a target vial on a stirring hot plate. The trained policy should still work when the pipette holder and vials are moved to new positions.
 
 ## Pipeline
 
@@ -32,7 +32,7 @@ For each layout the robot replays the transfer while both cameras record. This g
 
 ### 3. Fine-tune VLA
 
-We fine-tune **[π0](https://arxiv.org/abs/2410.24164)** (pi-zero), an open VLA model from Physical Intelligence, on **3 of the 4 demonstrations**. π0 takes the camera images, the robot state and a language prompt, and outputs the next robot actions. Because it is pre-trained on data from many robots, it can be adapted to a new task with few demonstrations.
+We fine-tune **[π0](https://arxiv.org/abs/2410.24164)**, an open VLA model from Physical Intelligence, on **3 of the 4 demonstrations**. π0 takes the camera images, the robot state and a language prompt, and outputs the next robot actions. Because it is pre-trained on data from many robots, it can be adapted to a new task with few demonstrations.
 
 ### 4. Test VLA
 
