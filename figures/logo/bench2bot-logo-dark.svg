@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" width="560" height="150" role="img" aria-label="Bench2Bot logo">
+  <g fill="none" stroke="#E6EDF3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- base -->
+    <path d="M18 128 H66"/>
+    <path d="M28 128 V118 H56 V128"/>
+    <!-- arm -->
+    <path d="M42 112 L56 52 L104 36"/>
+    <!-- gripper -->
+    <path d="M104 36 V46 M96 46 H112"/>
+    <!-- pipette -->
+    <path d="M100 46 V74 L104 88 L108 74 V46"/>
+  </g>
+  <!-- joints -->
+  <g fill="#0D1117" stroke="#E6EDF3" stroke-width="5">
+    <circle cx="42" cy="112" r="6"/>
+    <circle cx="56" cy="52" r="6"/>
+    <circle cx="104" cy="36" r="6"/>
+  </g>
+  <!-- droplet -->
+  <path d="M104 94 C101 99 100 101 100 103 A4 4 0 0 0 108 103 C108 101 107 99 104 94 Z" fill="#2DD4BF"/>
+  <!-- vial -->
+  <path d="M91 112 H117 M94 112 V130 A4 4 0 0 0 98 134 H110 A4 4 0 0 0 114 130 V112" fill="none" stroke="#E6EDF3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M99 122 H109 V128 A1.5 1.5 0 0 1 107.5 129.5 H100.5 A1.5 1.5 0 0 1 99 128 Z" fill="#2DD4BF"/>
+  <!-- wordmark -->
+  <text x="152" y="88" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" font-weight="600" letter-spacing="-1.5" fill="#E6EDF3">Bench<tspan fill="#2DD4BF">2</tspan>Bot</text>
+  <text x="155" y="116" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="3" fill="#9198A1">VISION · LANGUAGE · ACTION FOR THE LAB</text>
+</svg>
