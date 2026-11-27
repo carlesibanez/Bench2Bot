@@ -1,6 +1,6 @@
 # Project data & recorded outputs
 vla_data/
-VLA-collector/outputs/
+VLA-collector/pi0_trainingoutputs/
 runs/
 snapshots/
 *.mp4
