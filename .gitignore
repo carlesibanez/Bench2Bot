@@ -1,5 +1,6 @@
 # Project data & recorded outputs
 vla_data/
+VLA-collector/outputs/
 runs/
 snapshots/
 *.mp4
