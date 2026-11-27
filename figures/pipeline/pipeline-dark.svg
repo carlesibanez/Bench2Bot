@@ -1,29 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 136" width="1040" height="136" role="img" aria-label="Bench2Bot pipeline: set up data collection, run robot and record, fine-tune VLA, test VLA">
-  <path d="M10 12 H796" stroke="#45D1D9" stroke-opacity="0.35" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 150" width="1040" height="150" role="img" aria-label="Bench2Bot pipeline: set up data collection, run robot and record, fine-tune VLA, test VLA">
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
-    <circle cx="10" cy="12" r="9" fill="#45D1D9" fill-opacity="0.18"/>
-    <circle cx="10" cy="12" r="4.5" fill="#45D1D9"/>
-    <text x="8" y="52" font-size="13" font-weight="600" letter-spacing="2.5" fill="#45D1D9">01</text>
-    <text x="8" y="80" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Set up data collection</text>
-    <text x="8" y="106" font-size="15" fill="#9198A1">Hand-guide the arm to the</text>
-    <text x="8" y="126" font-size="15" fill="#9198A1">key poses of each layout</text>
-    <circle cx="272" cy="12" r="9" fill="#45D1D9" fill-opacity="0.18"/>
-    <circle cx="272" cy="12" r="4.5" fill="#45D1D9"/>
-    <text x="270" y="52" font-size="13" font-weight="600" letter-spacing="2.5" fill="#45D1D9">02</text>
-    <text x="270" y="80" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Run robot and record</text>
-    <text x="270" y="106" font-size="15" fill="#9198A1">Robot replays the transfer,</text>
-    <text x="270" y="126" font-size="15" fill="#9198A1">two cameras record it</text>
-    <circle cx="534" cy="12" r="9" fill="#45D1D9" fill-opacity="0.18"/>
-    <circle cx="534" cy="12" r="4.5" fill="#45D1D9"/>
-    <text x="532" y="52" font-size="13" font-weight="600" letter-spacing="2.5" fill="#45D1D9">03</text>
-    <text x="532" y="80" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Fine-tune VLA</text>
-    <text x="532" y="106" font-size="15" fill="#9198A1">Train π0 on 3 demos</text>
-    <text x="532" y="126" font-size="15" fill="#9198A1">in LeRobot format</text>
-    <circle cx="796" cy="12" r="9" fill="#45D1D9" fill-opacity="0.18"/>
-    <circle cx="796" cy="12" r="4.5" fill="#45D1D9"/>
-    <text x="794" y="52" font-size="13" font-weight="600" letter-spacing="2.5" fill="#45D1D9">04</text>
-    <text x="794" y="80" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Test VLA</text>
-    <text x="794" y="106" font-size="15" fill="#9198A1">Run the policy on the</text>
-    <text x="794" y="126" font-size="15" fill="#9198A1">held-out layout</text>
+    <rect x="3.5" y="2.5" width="242" height="142" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <rect x="23" y="22" width="40" height="22" rx="11" fill="#45D1D9" fill-opacity="0.15"/>
+    <text x="43.75" y="37.5" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#45D1D9">01</text>
+    <text x="23" y="76" font-size="17" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Set up data collection</text>
+    <text x="23" y="102" font-size="14.5" fill="#9198A1">Hand-guide the arm to the</text>
+    <text x="23" y="122" font-size="14.5" fill="#9198A1">key poses of each layout</text>
+    <path d="M254.0 67.0 L259.5 73.0 L254.0 79.0" fill="none" stroke="#484F58" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="267.5" y="2.5" width="242" height="142" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <rect x="287" y="22" width="40" height="22" rx="11" fill="#45D1D9" fill-opacity="0.15"/>
+    <text x="307.75" y="37.5" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#45D1D9">02</text>
+    <text x="287" y="76" font-size="17" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Run robot and record</text>
+    <text x="287" y="102" font-size="14.5" fill="#9198A1">Robot replays the transfer,</text>
+    <text x="287" y="122" font-size="14.5" fill="#9198A1">two cameras record it</text>
+    <path d="M518.0 67.0 L523.5 73.0 L518.0 79.0" fill="none" stroke="#484F58" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="531.5" y="2.5" width="242" height="142" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <rect x="551" y="22" width="40" height="22" rx="11" fill="#45D1D9" fill-opacity="0.15"/>
+    <text x="571.75" y="37.5" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#45D1D9">03</text>
+    <text x="551" y="76" font-size="17" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Fine-tune VLA</text>
+    <text x="551" y="102" font-size="14.5" fill="#9198A1">Train π0 on 3 demos</text>
+    <text x="551" y="122" font-size="14.5" fill="#9198A1">in LeRobot format</text>
+    <path d="M782.0 67.0 L787.5 73.0 L782.0 79.0" fill="none" stroke="#484F58" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="795.5" y="2.5" width="242" height="142" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <rect x="815" y="22" width="40" height="22" rx="11" fill="#45D1D9" fill-opacity="0.15"/>
+    <text x="835.75" y="37.5" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#45D1D9">04</text>
+    <text x="815" y="76" font-size="17" font-weight="600" letter-spacing="-0.2" fill="#E6EDF3">Test VLA</text>
+    <text x="815" y="102" font-size="14.5" fill="#9198A1">Run the policy on the</text>
+    <text x="815" y="122" font-size="14.5" fill="#9198A1">held-out layout</text>
   </g>
 </svg>
